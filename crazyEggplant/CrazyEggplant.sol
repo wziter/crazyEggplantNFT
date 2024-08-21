@@ -4,7 +4,7 @@ pragma solidity ^0.8.20;
 import "../ERC/ERC721.sol";
 
 contract CrazyEggplant is ERC721{
-    uint private MAXNUMBERS = 10000;
+    uint256 internal MAXNUMBERS = 10000;
 
     constructor() ERC721("CrazyEggplant", "CEP") {}
 
